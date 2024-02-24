@@ -5,8 +5,6 @@ import winlogo from '../assets/windows.ico';
 import macoslogo from '../assets/macos.ico';
 import linuxlogo from '../assets/linux.ico';
 
-const downloadModalLinux = ref(false);
-const downloadModalMacOS = ref(false);  
 const downloadModalWindows = ref(false);
 const props = defineProps<{ 
       lang: lang,
@@ -18,20 +16,8 @@ function changeHash(str: string){
 
 
 function download(){
-switch(props.os){
-    case "linux":
-        downloadModalLinux.value = true;
-    break;
-    case "macos":
-        downloadModalMacOS.value = true;
-    break;
-    default:
         downloadModalWindows.value = true;
-
-    }
 }
-
-//const count = ref(0)
 
 </script>
 
@@ -96,7 +82,7 @@ switch(props.os){
       </q-card-section><q-card-section v-else>
         <div class="row items-center no-wrap">
           <div class="col">
-            <div class="text-h6 text-white">{{ props.lang.downFor }} Windows</div>
+            <div class="text-h6 text-white"> {{ props.lang.downFor }} Windows</div>
           </div>
         </div>
       </q-card-section>

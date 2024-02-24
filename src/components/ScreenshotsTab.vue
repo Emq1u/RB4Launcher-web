@@ -6,7 +6,6 @@ const props = defineProps<{
       lang: lang,
 }>();
 const images = ref();
-const slide = ref('./src/assets/screenshots/0.png');
 images.value = [
           {
             src: './src/assets/screenshots/0.png',
@@ -45,6 +44,8 @@ images.value = [
             caption: props.lang.screen8
           },
         ]   
+const slide = ref(images.value[0].src);
+
 </script>
 
 <template>
