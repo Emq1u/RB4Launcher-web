@@ -1,0 +1,42 @@
+{
+    "ua":{
+        "description": "Важливо мати якісне обслуговування клієнтів, постачальника послуг з обслуговування клієнтів. Щастя Енеї потребує болю. Жасминова маса. Разом із товаришами породять гори пір’я та великі поштовхи, народиться смішна мишка. До того часу, скільки котів, ultricies і ні, діти футбол, ціна хто, сем. Масового ефекту ні для кого немає.",
+        "downloadbtn": "Завантажте інсталятор",
+        "screenshot": "Скріншоти",
+        "download": "Завантажити",
+        "windowsDownload": "Завантажте інсталятор, натиснувши кнопку",
+        "macosDownload": "Завантажте образ диска, натиснувши на кнопку",
+        "linuxDownload": "Завантажте пакет (.deb), натиснувши на кнопку",
+        "lang": "Мова",
+        "downFor": "Завантажити для",
+        "screen0": "Досліджуйте безкрайній океан",
+        "screen1": "Відвідайте миролюбне село",
+        "screen2": "Спостерігайте за чудовими заходами сонця",
+        "screen3": "Підземний світ повний таємниць",
+        "screen4": "Використовуйте всі магічні можливості",
+        "screen5": "Оглядайте різних істот",
+        "screen6": "Йди у пекло",
+        "screen7": "Остерігайтеся таємничих біомів",
+        "screen8": "Грайте за свою свободу" 
+    },
+    "en":{
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "downloadbtn": "Download Installer",
+        "screenshot": "Screenshot",
+        "download": "Download",
+        "windowsDownload": "Download the installer by clicking on the button",
+        "macosDownload": "Download the disk image by clicking on the button",
+        "linuxDownload": "Download the package (.deb) by clicking on the button",
+        "lang": "Language",
+        "downFor": "Download for",
+        "screen0": "Explore endless ocean",
+        "screen1": "Visit peaceful village",
+        "screen2": "Observse beautiful sunset",
+        "screen3": "Underground world full of secrets",
+        "screen4": "Use all of magician possibilities",
+        "screen5": "Inspect different creatures",
+        "screen6": "Go to the nether",
+        "screen7": "Beware of mysterious biomes",
+        "screen8": "Play for your freedom" 
+    }
+}

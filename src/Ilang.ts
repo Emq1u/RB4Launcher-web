@@ -1,0 +1,20 @@
+export interface lang{
+    description: string,
+    downloadbtn: string,
+    screenshot: string,
+    download: string,
+    windowsDownload: string,
+    macosDownload: string,
+    linuxDownload: string,
+    lang: string,
+    downFor: string,
+    screen0: string,
+    screen1: string,
+    screen2: string,
+    screen3: string,
+    screen4: string,
+    screen5: string,
+    screen6: string,
+    screen7: string,
+    screen8: string
+}
