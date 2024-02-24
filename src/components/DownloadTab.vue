@@ -1,28 +1,11 @@
 <script setup lang="ts">
 import { lang } from '../Ilang';
-import { ref } from 'vue';
 import winlogo from '../assets/windows.ico';
 import macoslogo from '../assets/macos.ico';
 import linuxlogo from '../assets/linux.ico';
 
 defineProps<{ lang: lang }>()
-const downloadModalLinux = ref(false);
-const downloadModalMacOS = ref(false);  
-const downloadModalWindows = ref(false);
 
-function download(os: string){
-switch(os){
-    case "linux":
-        downloadModalLinux.value = true;
-    break;
-    case "macos":
-        downloadModalMacOS.value = true;
-    break;
-    default:
-        downloadModalWindows.value = true;
-
-    }
-}
 </script>
 
 <template>
@@ -66,7 +49,7 @@ switch(os){
           <q-card-section>
             
     <q-btn outline size="xl" style="height: 100px;"  
-         @click="download('win')"> 
+        > 
         <div style="
             display: flex;
             align-items: center;
@@ -107,7 +90,7 @@ switch(os){
           <q-card-section>
             
     <q-btn outline size="xl" style="height: 100px;"  
-         @click="download('win')"> 
+         > 
         <div style="
             display: flex;
             align-items: center;
@@ -148,7 +131,7 @@ switch(os){
           <q-card-section>
             
     <q-btn outline size="xl" style="height: 100px;"  
-         @click="download('win')"> 
+        > 
         <div style="
             display: flex;
             align-items: center;
